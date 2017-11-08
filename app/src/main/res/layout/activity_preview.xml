@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.benboubaker.gallery.ui.SwipeableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorBlackDark"
+    tools:context="com.benboubaker.gallery.PreviewActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:transitionName="@string/transition_name" />
+
+</com.benboubaker.gallery.ui.SwipeableLayout>
